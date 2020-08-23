@@ -1,10 +1,81 @@
-img {
-    width: 150px;
+p.sample img {
+    width: 180px; 
 }
 h1 {
-    size: 70px;
+    font-size: 90px;
     font-family: serif;
 }
-h2 {
+.AM h2 {
+    font-family: serif;
+    font-size: 50px;
+}
+
+body {
+    background-image: url("haikeisora.jpg");
+
+}
+
+h3 {
     font-family: serif;
 }
+
+.menu {
+    display: flex;
+    font-size: 30px;
+    font-family: serif;
+}
+
+.mainnavigation {
+    display: flex;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    padding-right: 40px;
+    border-bottom: -20px;
+    
+}
+
+ul {
+    float: left;
+    justify-content: space-around;
+}
+
+.photo h2{
+    font-family: serif;
+    border-bottom: 2px solid black;
+}
+
+ul{
+    list-style: none;
+    display: table-cell
+}
+
+.AM{
+   border-top: 2px solid black; 
+}
+
+.are{
+    display: flex;
+    justify-content: space-around;
+}
+
+.tobu{
+    font-family: sans-serif;
+  text-align:center;
+  height: 50px;
+  width: 150px;
+  float:left;
+  margin:0 0 40px 0;
+  color: transparent;
+  font-size: 30px;
+  background: transparent;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: serif;
+}
+
